@@ -31,19 +31,7 @@ python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
----
-
-## Structure
-SEMD-LensedGW/
-├── README.md
-├── requirements.txt
-├── checkpoints/          
-├── output/           
-├── data/
-│   ├── lensed
-│   └── unlensed/
-├── main.py
-├── dataset.py                       
+                
 ├── model.py              
 ├── utils.py
 ├── evaluate.py
