@@ -1,8 +1,11 @@
 # SEMD-LensedGW
 
-**SEMD-LensedGW** — a fast pre-screening deep-learning framework (SE + MLP + DeiT) for identifying candidate strongly-lensed gravitational-wave event pairs from time–frequency spectrograms.
+This repository contains the official implementation of the **SEMD (Squeeze-and-Excitation Multilayer Perceptron Data-efficient Image Transformer)** model described in the paper:  
+**“Identification of Strongly Lensed Gravitational Wave Events Using Squeeze-and-Excitation Multilayer Perceptron Data-efficient Image Transformer”**  
+🔗 [https://arxiv.org/abs/2508.19311](https://arxiv.org/abs/2508.19311)
 
-This repository contains the model code and training / evaluation scripts for the SEMD classifier.  
+SEMD-LensedGW is a **fast pre-screening deep-learning framework** designed for identifying candidate strongly lensed gravitational-wave (GW) event pairs from time–frequency spectrograms.  
+The model leverages cross-image attention to efficiently recognize morphological similarities between lensed GW signals, enabling rapid and scalable screening prior to Bayesian parameter estimation.
 
 ## Requirements
 Tested with:
