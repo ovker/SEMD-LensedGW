@@ -54,7 +54,7 @@ def load_data(data_dirs, split_ratios=(0.5, 0.125, 0.375), random_seed=42):
     }
     return splits
 
-def load_data_from_dirs(data_dirs, split_ratios=(0.7, 0.15, 0.15), random_seed=42):
+def load_data_from_dirs(data_dirs, split_ratios=(0.5, 0.125, 0.375), random_seed=42):
     return load_data(data_dirs, split_ratios, random_seed)
 
 # Define transforms for train, val, test
@@ -94,4 +94,5 @@ def get_val_transforms():
         transforms.Normalize(mean=[0.485, 0.456, 0.406],
                              std =[0.229, 0.224, 0.225]),
     ])
+
 
