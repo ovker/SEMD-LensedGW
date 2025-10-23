@@ -1,0 +1,20 @@
+# Core environment
+python>=3.8
+
+# Deep learning framework
+torch>=1.10.0
+
+# Scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+
+# Signal and spectrogram processing
+librosa>=0.9.0
+pycbc>=2.0.0
+
+# Visualization
+matplotlib>=3.4.0
+
+# Progress display
+tqdm>=4.62.0
