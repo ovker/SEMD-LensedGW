@@ -21,21 +21,23 @@ source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-## Repository Structure
+##  Repository Structure
+
+```text
 SEMD-LensedGW/
 │
 ├── main.py
-├──train.py
-├──evaluate.py
-├── prdcict_all.py
+├── train.py
+├── evaluate.py
+├── predict_all.py
 ├── model.py
 ├── utils.py
-├── checkpoints.py
+├── checkpoints/
 ├── data/
-│   ├──lensed/
-│   └──unlensed/
-└── README.md  
-
+│   ├── lensed/
+│   └── unlensed/
+└── README.md
+```
 
 ## Data Preparation
 ⚠️ Due to privacy and licensing restrictions, data and data-generation code are not included in this repository.
