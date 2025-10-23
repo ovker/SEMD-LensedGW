@@ -30,10 +30,3 @@ Create and activate a virtual environment, then install dependencies:
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
-                
-├── model.py              
-├── utils.py
-├── evaluate.py
-├── train.py
-├── predict_all.py
